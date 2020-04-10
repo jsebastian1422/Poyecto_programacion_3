@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Snl_Project_Ftp_JG_SV\Prj_Ftp_JG_SV\bin\Debug\Prj_Ftp_JG_SV.exe.config
+C:\Users\User\source\repos\Snl_Project_Ftp_JG_SV\Prj_Ftp_JG_SV\bin\Debug\Prj_Ftp_JG_SV.exe
+C:\Users\User\source\repos\Snl_Project_Ftp_JG_SV\Prj_Ftp_JG_SV\bin\Debug\Prj_Ftp_JG_SV.pdb
+C:\Users\User\source\repos\Snl_Project_Ftp_JG_SV\Prj_Ftp_JG_SV\obj\Debug\Prj_Ftp_JG_SV.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Snl_Project_Ftp_JG_SV\Prj_Ftp_JG_SV\obj\Debug\Prj_Ftp_JG_SV.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Snl_Project_Ftp_JG_SV\Prj_Ftp_JG_SV\obj\Debug\Prj_Ftp_JG_SV.exe
+C:\Users\User\source\repos\Snl_Project_Ftp_JG_SV\Prj_Ftp_JG_SV\obj\Debug\Prj_Ftp_JG_SV.pdb
