@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Prj_Ftp_JG_SV.Processes;
 
 namespace Prj_Ftp_JG_SV
 {
@@ -12,21 +13,36 @@ namespace Prj_Ftp_JG_SV
         static void Main(string[] args)
         {
             DirectoryInfo di = new DirectoryInfo(@"..\..\Documentos");
-            Console.WriteLine("No search pattern returns:");
-            Console.WriteLine(di.Name + "\n");
             foreach (var fi in di.GetFiles())
             {
-                string[] lineas = File.ReadAllLines(di + "/" + fi.Name);
-                foreach (var item in lineas)
+                Procesos procesos = new Procesos();
+                string[] nameFile = fi.Name.Split('_');
+                string[] contentFile = File.ReadAllLines(di + "/" + fi.Name);
+                switch (nameFile[0])
                 {
-                    var valores = item.Split(';');
-                    Console.Write(valores[0]);
+                    case "SOLI":
+                        procesos.GenerarXmlSolictInscripcion(fi.Name, contentFile);                       
+                        break;
+                    case "SOLMAFI":
+                        //Console.WriteLine(fi.Name);
+                        break;
+                    case "SOLMAAC":
+                        //Console.WriteLine(fi.Name);
+                        break;
+                    case "SOLGRA":
+                        //Console.WriteLine(fi.Name);
+                        break;
+                    case "SOLCREES":
+                        //Console.WriteLine(fi.Name);
+                        break;
+                    case "SOLCANMA":
+                        //Console.WriteLine(fi.Name);
+                        break;
+                    default:
+                        break;
                 }
-
-                //Console.WriteLine(fi.Name + "\n");
             }
-       
-            Console.WriteLine();
         }
+       
     }
 }
